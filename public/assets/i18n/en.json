@@ -5,5 +5,34 @@
     "donate": "Donate",
     "contactUs": "Contact Us",
     "language": "Language"
-  }
+  },
+  "whoWeAre": "Who We Are and What We Do",
+  "whoWeAreDescription": "The National and Environmental Community Service Association, ASCONA, is a non-profit organization dedicated to promoting environmental awareness and sustainable development in the Puerto Jiménez de Osa community and its surroundings. ASCONA organizes educational campaigns and cultural activities to support organic agriculture and community well-being. All contributors work voluntarily for the good of the community.",
+  "programs": [
+    {
+      "title": "Comprehensive Environmental Education Program",
+      "description": "Red Educa Osa unifies efforts for environmental awareness in the Osa Peninsula, promoting education for the conservation of natural resources as the basis for sustainable development."
+    },
+    {
+      "title": "Comprehensive Culture and Art Program",
+      "description": "PICA is a culture and art program that drives community participation and development through dance, theater, music classes, workshops, and cinema, improving the quality of life in the Osa Peninsula."
+    },
+    {
+      "title": "Puerto Jiménez Public Library",
+      "description": "A community library built with the support of local entrepreneurial women, promoting reading and maintained through donations. Open Monday to Friday and managed by ASCONA in collaboration with the Puerto Jiménez Integral Development Association."
+    },
+    {
+      "title": "Community Cultural Center",
+      "description": "A community cultural space offering English classes, jewelry making, dance, theater, and more. It also provides free internet and Montessori classes, rebuilt with the support of volunteers and local organizations."
+    },
+    {
+      "title": "Comprehensive Regenerative Agriculture Program (PIAR)",
+      "description": "This program strengthens regenerative agriculture and agroecology in the Osa Peninsula, promoting food sovereignty and sustainable practices for the well-being of local communities."
+    },
+    {
+      "title": "Volunteer Program with Local Families",
+      "description": "ASCONA hosts volunteers from around the world, who stay with local families to exchange culture and support the economy. Volunteers help strengthen the community through the association's programs."
+    }
+  ]
 }
+

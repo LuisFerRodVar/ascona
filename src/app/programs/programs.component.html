@@ -1,1 +1,8 @@
-<p>programs works!</p>
+<ul>
+  @for(program of getPrograms(); track $index){
+    <li>
+      <h2>{{program.title}}</h2>
+      <p>{{program.description}}</p>
+    </li>
+  }
+</ul>
