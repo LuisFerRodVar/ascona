@@ -10,9 +10,23 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class NavbarComponent {
   translate: TranslateService = inject(TranslateService);
+  isEnglish = false;
 
   translateText(lang: string) {
     this.translate.use(lang)
+    if(lang == "en"){
+      this.isEnglish = true;
+    }
+    else{
+      this.isEnglish = false;
+    }
+  }
+  translation(){
+    if(this.isEnglish){
+      this.translateText("es")
+    }else {
+      this.translateText("en")
+    }
   }
 
 }
