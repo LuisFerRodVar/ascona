@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --interactive_color: #E3B344;
+  --header_color: #4D7C5B;
+  --background_color: #F7E7C4;
+  --interactive_color2: #869454;
+  --icon_color: #A49E4C;
+  --background_color2: #F4DC9C;
+  --text_color: #333333;
+}
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: var(--background_color);
+  color: var(--primary_text);
+
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+a {
+  display: inline;
+}
+
+img,
+video,
+iframe,
+picture,
+figure {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+form,
+input,
+select,
+textarea,
+button,
+label {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
