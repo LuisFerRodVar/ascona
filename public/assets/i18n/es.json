@@ -40,5 +40,8 @@
       "description": "ASCONA acoge voluntarios de todo el mundo, quienes se hospedan con familias locales para intercambiar cultura y apoyar la economía. Los voluntarios ayudan a fortalecer la comunidad a través de los programas de la asociación."
     }
   ],
-  "close": "Cerrar"
+  "close": "Cerrar",
+  "footer":{
+    "title": "Contáctenos"
+  }
 }

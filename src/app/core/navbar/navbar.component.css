@@ -1,19 +1,33 @@
-nav{
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   background-color: var(--header_color);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
-div{
+
+div {
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 2rem;
 }
-img{
+
+img {
   width: 80px;
   height: 80px;
+}
+
+a {
+  transition: all 300ms ease-in-out;
+  font-weight: 500;
+  color: var(--text_color);
+  cursor: pointer;
+}
+
+a:hover{
+  color: var(--interactive_color);
 }

@@ -1,4 +1,5 @@
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../public/assets/fonts/merriweather-sans/merriweather-sans.css';
 :root{
   --interactive_color: #E3B344;
   --header_color: #4D7C5B;
@@ -25,6 +26,7 @@
 }
 
 body {
+  font-family: Merriweather-Sans;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;

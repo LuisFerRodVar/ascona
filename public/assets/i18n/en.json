@@ -40,6 +40,9 @@
       "description": "ASCONA hosts volunteers from around the world, who stay with local families to exchange culture and support the economy. Volunteers help strengthen the community through the association's programs."
     }
   ],
-  "close": "Close"
+  "close": "Close",
+  "footer":{
+    "title": "Contact Us"
+  }
 }
 
