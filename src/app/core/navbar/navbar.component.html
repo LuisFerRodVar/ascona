@@ -1,10 +1,12 @@
 <nav>
   <div>
-    <img src="./assets/images/ascona-logo.png" alt="ascona logo">
-    <a>{{"nav.whoWeAre" | translate }}</a>
-    <a>{{"nav.programs" | translate }}</a>
-    <a>{{"nav.donate" | translate }}</a>
-    <a>{{"nav.contactUs" | translate }}</a>
+    <a href="#header">
+      <img src="./assets/images/ascona-logo.png" alt="ascona logo">
+    </a>
+    <a href="#who-we-are">{{"nav.whoWeAre" | translate }}</a>
+    <a href="#programs">{{"nav.programs" | translate }}</a>
+    <a >{{"nav.donate" | translate }}</a>
+    <a href="#contact">{{"nav.contactUs" | translate }}</a>
   </div>
   <a (click) = "translation()">{{"nav.language" | translate }}:
   @if (isEnglish){
