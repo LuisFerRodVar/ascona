@@ -4,3 +4,8 @@ app-navbar{
   left: 0;
   right: 0;
 }
+
+section:nth-child(2){
+  background-color: var(--background_color2) !important;
+}
+

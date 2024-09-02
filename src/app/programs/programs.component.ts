@@ -1,22 +1,36 @@
 import { Component, inject } from '@angular/core';
-import { TranslateService} from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-programs',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './programs.component.html',
   styleUrl: './programs.component.css'
 })
 export class ProgramsComponent {
   translate: TranslateService = inject(TranslateService)
-  getPrograms(){
+  getPrograms() {
     let programs: any[] = []
     this.translate.get("programs").subscribe((data: any) => {
       programs = data;
     })
     return programs;
   }
+  openDialog(dialog: HTMLDialogElement) {
+    if (dialog instanceof HTMLDialogElement) {
+      dialog.showModal();
+    } else {
+      console.error('El elemento no es un dialog válido:', dialog);
+    }
+  }
 
+  closeDialog(dialog: HTMLDialogElement) {
+    if (dialog instanceof HTMLDialogElement) {
+      dialog.close();
+    } else {
+      console.error('El elemento no es un dialog válido:', dialog);
+    }
+  }
 
 }

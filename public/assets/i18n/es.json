@@ -10,28 +10,35 @@
   "whoWeAreDescription": "La Asociación de Servicio Comunitario Nacional y Ambiental, ASCONA, es una organización sin fines de lucro dedicada a promover la conciencia ambiental y el desarrollo sostenible en la comunidad de Puerto Jiménez de Osa y sus alrededores. ASCONA organiza campañas educativas y actividades culturales para apoyar la agricultura orgánica y el bienestar comunitario. Todos los contribuyentes trabajan voluntariamente para el bien de la comunidad.",
   "programs": [
     {
+      "icon": "fa-solid fa-leaf",
       "title": "Programa Integral de Educación Ambiental",
       "description": "Red Educa Osa unifica esfuerzos para la concientización ambiental en la Península de Osa, promoviendo la educación para la conservación de los recursos naturales como base del desarrollo sostenible."
     },
     {
+      "icon": "fa-solid fa-palette",
       "title": "Programa Integral de Cultura y Arte",
       "description": "PICA es un programa de cultura y arte que impulsa la participación y el desarrollo de las comunidades a través de clases de baile, teatro, música, talleres y cine, mejorando la calidad de vida en la Península de Osa."
     },
     {
+      "icon": "fa-solid fa-book",
       "title": "Biblioteca Pública de Puerto Jiménez",
       "description": "Una biblioteca comunitaria construida con el apoyo de mujeres emprendedoras locales, que promueve la lectura y es mantenida gracias a donaciones. Abierta de lunes a viernes y administrada por ASCONA en colaboración con la Asociación de Desarrollo Integral de Puerto Jiménez."
     },
     {
+      "icon": "fa-solid fa-users",
       "title": "Centro Cultural Comunitario",
       "description": "Un espacio cultural comunitario que ofrece clases de inglés, bisutería, danza, teatro, y más. También ofrece internet gratis y clases Montessori, reconstruido con el apoyo de voluntarios y organizaciones locales."
     },
     {
+      "icon": "fa-solid fa-seedling",
       "title": "Programa Integral de Agricultura Regenerativa (PIAR)",
       "description": "Este programa fortalece la agricultura regenerativa y la agroecología en la Península de Osa, promoviendo la soberanía alimentaria y prácticas sostenibles para el bienestar de las comunidades locales."
     },
     {
+      "icon": "fa-solid fa-hands-helping",
       "title": "Programa de voluntariado con familias locales",
       "description": "ASCONA acoge voluntarios de todo el mundo, quienes se hospedan con familias locales para intercambiar cultura y apoyar la economía. Los voluntarios ayudan a fortalecer la comunidad a través de los programas de la asociación."
     }
-  ]
+  ],
+  "close": "Cerrar"
 }

@@ -1,8 +1,17 @@
 <ul>
-  @for(program of getPrograms(); track $index){
+  @for (program of getPrograms(); track $index) {
     <li>
-      <h2>{{program.title}}</h2>
-      <p>{{program.description}}</p>
+      <button (click)="openDialog(dialog)">
+        <i class="{{program.icon}}"></i>
+        <h2>{{program.title}}</h2>
+      </button>
+      <dialog #dialog>
+        <form method="dialog">
+          <h3>{{program.title}}</h3>
+          <p>{{program.description}}</p>
+          <span (click)="closeDialog(dialog)">{{ "close" | translate}}</span>
+        </form>
+      </dialog>
     </li>
   }
 </ul>
