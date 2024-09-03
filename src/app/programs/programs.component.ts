@@ -20,16 +20,12 @@ export class ProgramsComponent {
   openDialog(dialog: HTMLDialogElement) {
     if (dialog instanceof HTMLDialogElement) {
       dialog.showModal();
-    } else {
-      console.error('El elemento no es un dialog válido:', dialog);
     }
   }
 
   closeDialog(dialog: HTMLDialogElement) {
     if (dialog instanceof HTMLDialogElement) {
       dialog.close();
-    } else {
-      console.error('El elemento no es un dialog válido:', dialog);
     }
   }
 
